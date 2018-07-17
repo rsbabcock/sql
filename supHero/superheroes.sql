@@ -43,6 +43,11 @@ INSERT INTO Sidekicks
   FROM Superheroes s
   WHERE s.Name = 'Batman';
 
+INSERT INTO Sidekicks
+  SELECT null, 'Bat Girl', 'F', 'Maxine Jenkins', Superhero_Id
+  FROM Superheroes s
+  WHERE s.Name = 'Batman';
+
 
 CREATE TABLE `PowerType` (
     `PowerType_Id`    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
