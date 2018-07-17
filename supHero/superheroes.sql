@@ -111,6 +111,7 @@ CREATE TABLE `Weakness` (
 );
 
 INSERT INTO Weakness VALUES (null, 'Yellow');
+INSERT INTO Weakness VALUES (null, 'Kryptonite');
 
 CREATE TABLE `Superhero_Weakness` (
     `SuperheroWeakness_Id`    INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
