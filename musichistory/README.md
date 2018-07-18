@@ -97,6 +97,12 @@
 
 #10.Using MAX() function, write a select statement to find the album with the longest duration. The result should display the album title and the duration.
 
+    SELECT  max(a.albumLength), a.title
+    
+    FROM Album a
+
+
+
 #11.Using MAX() function, write a select statement to find the song with the longest duration. The result should display the song title and the duration.
 
 #12.Modify the previous query to also display the title of the album.
